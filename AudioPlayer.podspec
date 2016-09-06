@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "AudioPlayer/AudioPlayer.{h,m}"
-  # s.source_files  = "AudioPlayer/AudioStreamBuffer.{h,m}"
+  s.source_files  = "AudioPlayer/AudioStreamBuffer.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
